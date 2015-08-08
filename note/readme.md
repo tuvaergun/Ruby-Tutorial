@@ -1,4 +1,22 @@
-##  Buindler  Paket Yönetimi
+## Dökümantasyon
+ RubyDoc  (Çevrimdisi)
+ 
+ Kurulum : 
+	gem install rdoc-data
+	rdoc-data --install
+
+
+ ri    Tool u kullanılarak çevrim dışı arama.
+
+ ri Class
+ ri Class.method
+
+	ve benzeri devam ediyor...
+
+
+	
+
+##  Buindler Paket Yönetimi
 
 	-- bundler.oi
 
