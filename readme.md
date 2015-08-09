@@ -1,7 +1,7 @@
-# Ruby-Tutorial
+# Ruby-Tutorial #
 Ruby tutorial
 
 
-## Contributors
-Tuva Ergun
-Ertuğrul Göktuğ Göktaş
+## Contributors ##
+- Tuva Yasin Ergun
+- Ertuğrul Göktuğ Göktaş
