@@ -1,12 +1,10 @@
 ## Regex
 
 ** başangıç **
-
+<code>
 /../
 
-
 ** Örnek **
-
 /@/ !~ "kullanici@deneme.com"   # => false
 /@/ =~ "kullanici@deneme.com"   # => 9   yani truete
 
@@ -24,18 +22,18 @@
 [4] pry(main)> matchs.to_a
 => ["@"]
 
-
+</code>
 
 
 ## Kaynak Notları ##
 ** Url Adres **
-Ruby regular expressions
-http://doc.infosnel.nl/ruby_regular_expressions.html
+- Ruby regular expressions
+- http://doc.infosnel.nl/ruby_regular_expressions.html
 
 ** Bunu Kullanalım. **
-http://www.rubular.com
+- http://www.rubular.com
 
-
+<code>
 /./ - Any character except a newline.
 /./m - Any character (the m modifier enables multiline mode)
 /\w/ - A word character ([a-zA-Z0-9_])
@@ -60,4 +58,4 @@ POSIX bracket expressions are also similar to character classes. They provide a 
 /[[:space:]]/ - Whitespace character ([:blank:], newline, carriage return, etc.)
 /[[:upper:]]/ - Uppercase alphabetical
 /[[:xdigit:]]/ - Digit allowed in a hexadecimal number (i.e., 0-9a-fA-F)
-
+</code>
