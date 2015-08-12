@@ -24,7 +24,36 @@ Git ve Github kullanmak cok açıdan çok avantajlıdır. Bir deponun, ya da pro
 
 	> git commit -m "bla.txt dosyasında buton rengini değiştirdim"
 
-#### Komutlar
+## Kurulum
+
+#### ubuntu repo'ları güncelliyoruz
+```sh
+sudo apt-get update
+```
+
+#### github ve curl'ü kuruyoruz
+```sh
+sudo apt-get install git-core curl
+```
+
+#### git'e kullanıcı adı ve şifremizi tanıtıyoruz
+```sh
+git config --global user.name "Om3rCitak"
+git config --global user.email "mail@omercitak.com"
+```
+
+#### ssh-keygen oluşturuyoruz
+```sh
+ssh-keygen
+```
+
+#### oluşturduğumuz keyi ekrana basıp, github'da "ssh-keygens" sayfasından ekliyoruz
+```sh
+cat ~/.ssh/id_rsa.pub
+```
+
+## Komutlar
+# Github Kullanımı
 
 > $ **git init**: 			
 
@@ -34,7 +63,9 @@ Bilgisayardaki bir dosyayı repo yaparsınız.
 
 Olduğunuz dosyaya internette olan bir repoyu klonlarsınız.
 
-> $ git add bla.txt		
+> $ git add bla.txt	
+veya	
+> $ git add .		
  
 bla.txt'i commit için eklemiş olursunuz
 
@@ -50,4 +81,9 @@ birleşmemiş değişiklikler varsa ilk önce onları merge eder
 
 master branch'ine yaptığınız commit'i gönderirsiniz
 
+
+
+
+https://try.github.io/
+* [try.github.io](https://try.github.io/)
 
